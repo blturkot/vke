@@ -48,6 +48,15 @@ namespace VKE
             }
           private:
             ShortName _DebugName;
+#else
+            void SetDebugName( cstr_t pName )
+            {
+            }
+
+            cstr_t GetDebugName() const
+            {
+                return "RENDER_SYSTEM_DEBUG_DISABLED";
+            }
 #endif
         };
 
