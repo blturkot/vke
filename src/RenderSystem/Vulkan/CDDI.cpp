@@ -2147,7 +2147,7 @@ namespace VKE
             }
             if( requestedLevel >= FeatureLevels::LEVEL_1_3 )
             {
-                if( true )
+                if( false )
                 {
                     if( !Features.Raytracing10.rayTracingPipeline )
                     {
